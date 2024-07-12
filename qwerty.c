@@ -1,5 +1,39 @@
 #include <stdio.h>
-void colemak() {
+void qwerty(){
+    int q = 1;
+    int w = 2;
+    int e = 3;
+    int r = 4;
+    int t = 5;
+
+    int y = 6;
+    int u = 7;
+    int i = 8;
+    int o = 9;
+    int p = 10;
+
+    int a = 11;
+    int s = 12;
+    int d = 13;
+    int f = 14;
+    int g = 15;
+    int h = 16;
+    int j = 17;
+    int k = 18;
+    int l = 19;
+    int z = 20;
+
+    int x = 21;
+    int c = 22;
+    int v = 23;
+    int b = 24;
+    int n = 25;
+
+    int M = 26;
+    printf("%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p\n",
+           &q, &w, &e, &r, &t , &y, &u, &i, &o, &p, &a, &s, &d, &f, &g, &h, &j, &k, &l, &z, &x, &c, &v, &b, &n, &m);
+}
+void qwerty2() {
     int Q = 27;
     int W = 28;
     int F = 29;
@@ -33,38 +67,4 @@ void colemak() {
     int M = 56;
     printf("%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p\n",
                    &Q, &W, &F, &P, &G, &J, &L, &U, &Y, &A, &R, &S, &T, &D, &H, &N, &E, &I, &O, &Z, &X, &C, &V, &B, &K, &M);
-}
-void colemak2(){
-    int q = 1;
-    int w = 2;
-    int E = 3;
-    int R = 4;
-    int T = 5;
-
-    int Y = 6;
-    int U = 7;
-    int I = 8;
-    int O = 9;
-    int P = 10;
-
-    int A = 11;
-    int S = 12;
-    int D = 13;
-    int F = 14;
-    int G = 15;
-    int H = 16;
-    int J = 17;
-    int K = 18;
-    int L = 19;
-    int Z = 20;
-
-    int X = 21;
-    int C = 22;
-    int V = 23;
-    int B = 24;
-    int N = 25;
-
-    int M = 26;
-    printf("%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p\n",
-           &Q, &W, &E, &R, &T,&Y, &U, &I, &O, &P, &A, &S, &D, &F, &G, &H, &J, &K, &L, &Z, &X, &C, &V, &B, &N, &M);
 }
