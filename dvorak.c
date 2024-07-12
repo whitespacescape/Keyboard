@@ -51,25 +51,25 @@ int dovorak2(){
 
     int  U = 37;
     int  I = 38;
-    int  p = 39;
-    int  H = 40;
-    int  T = 45;
+    int  H = 39;
+    int  T = 40;
 
-    int  N = 46;
-    int  S = 47;
-    int  Q = 48;
-    int  J = 49;
-    int  K = 50;
+    int  D = 41;
+    int  N = 42;
+    int  S = 43;
+    int  Q = 44;
+    int  J = 45;
+    int  K = 46;
 
-    int  X = 51;
-    int  B = 52;
-    int  M = 53;
-    int  W = 54;
-    int  V = 55;
+    int  X = 47;
+    int  B = 48;
+    int  M = 49;
+    int  W = 50;
+    int  V = 51;
 
-    int  Z = 56;
+    int  Z = 52;
       printf("%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p\n",
-            &P,&Y,&F,&G,&C,&R,&L,&A,&O,&E,&U,&I，&H,&T,&N,&S,&Q,&J,&K,&X,&B,&M,&W,&V,&Z);
+              &P,&Y,&F,&G,&C,&R,&L,&A,&O,&E,&U,&I,&H,&T,&N,&S,&Q,&J,&K,&X,&B,&M,&W,&V,&Z);
     return dovorak2();
 }
 
