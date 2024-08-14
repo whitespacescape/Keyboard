@@ -50,21 +50,21 @@ void qwerty2() {
     int S = 38;
     int T = 39;
     int D = 40;
-    int H = 45;
+    int H = 41;
 
-    int N = 46;
-    int E = 47;
-    int I = 48;
-    int O = 49;
-    int Z = 50;
+    int N = 42;
+    int E = 43;
+    int I = 44;
+    int O = 45;
+    int Z = 46;
 
-    int X = 51;
-    int C = 52;
-    int V = 53;
-    int B = 54;
-    int K = 55;
+    int X = 47;
+    int C = 48;
+    int V = 49;
+    int B = 50;
+    int K = 51;
 
-    int M = 56;
+    int M = 52;
     printf("%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p\n",
                    &Q, &W, &F, &P, &G, &J, &L, &U, &Y, &A, &R, &S, &T, &D, &H, &N, &E, &I, &O, &Z, &X, &C, &V, &B, &K, &M);
 }
